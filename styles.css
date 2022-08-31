@@ -5,7 +5,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     
-  }
+}
   
 header{
     overflow-y: hidden;
@@ -102,16 +102,14 @@ header img{
 }
 .menu-content{
     
-    
-    
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-top: 85px;
+    padding-top: 200px;
     width:100vw;
     color:white; 
-    margin-left:-600px;
+    margin-left:-680px;
 }
 .menu-content h3{
 
@@ -125,7 +123,7 @@ header img{
     justify-content:center;
     padding: 20px 80px;
     text-decoration: none;
-    width: 31vw;
+    width: 25vw;
     color: white;
     background-color:#6421ff;
     border-radius: 4px;
@@ -186,5 +184,43 @@ header img{
     width: 342px;
     padding-bottom: 18px;
     padding-left: 18px;
+
+}
+.price-section{
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: #040714;
+    /* margin-bottom: 10px; */
+    height: 100vh;
+}
+.prices-content{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin-left: 100px;
+    
+
+}
+.price-section h1{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 2.5rem;
+}
+.list{
+    /* height: 50vh;
+    width: 80vw; */
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.list-column img{
+
+    width: 250px;
+    margin: 10px;
+
 
 }
